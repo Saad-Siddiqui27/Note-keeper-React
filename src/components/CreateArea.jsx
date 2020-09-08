@@ -25,7 +25,7 @@ function CreateArea(props){
         props.addNote(note);
 
         
-        event.preventdDefault();
+        event.preventDefault();
 
     }
 
